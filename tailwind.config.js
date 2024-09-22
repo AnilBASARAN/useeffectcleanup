@@ -4,7 +4,13 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx}", // Adjust this path as necessary
   ],
   theme: {
-    extend: {},
+    extend: {
+
+        fontFamily: {
+          tiny: ["tiny5"]
+        }
+
+    },
   },
   plugins: [],
 }
